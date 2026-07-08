@@ -41,7 +41,7 @@ Pseudocode:
 while True:
     try:
         books_purchased = int(
-            input("How many books did you purchasew this month? ")
+            input("How many books did you purchase this month? ")
         )
         
         if books_purchased >=0:
