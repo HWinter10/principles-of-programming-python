@@ -54,16 +54,12 @@ while True:
 # Block for determining reward points earned
 if books_purchased >=8:
     points_awarded = 60
-
 elif books_purchased >= 6:
     points_awarded = 30
-
 elif books_purchased >= 4:
     points_awarded = 15
-
 elif books_purchased >= 2:
     points_awarded = 5
-
 else:
     points_awarded = 0
 
